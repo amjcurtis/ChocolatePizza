@@ -1,0 +1,79 @@
+
+
+/* --------------------------------------- */
+/* HEADER */
+
+header {
+    background: #FFF;
+    height:
+}
+
+header div img {
+
+}
+
+header p {
+
+}
+
+header ul li {
+
+}
+
+/* ------------------------------------------- */
+/* BODY */
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+body div img {
+
+}
+
+body div p {
+
+}
+
+body img { /* Make sure this doesn't conflict with 'body div img' above */
+
+}
+
+body p {
+    text-indent: 50px;
+}
+
+section img {
+
+}
+
+section ul li {
+
+}
+
+footer img:nth-of-type() {
+
+}
+footer h3 {
+
+}
+
+footer p:nth-child() {
+
+}
+
+footer button {
+
+}
+
+footer img:nth-last-of-type() {
+
+}
+
+footer p {
+
+}   
