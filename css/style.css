@@ -11,7 +11,7 @@ header {
 }
 
 header div {
-    width: 700px;
+    /* width: 700px; */
     /* float: left; */
     margin: 0px;
 }
@@ -22,18 +22,22 @@ header div img {
     float: left;
 }
 
-header div p:nth-of-type(1) {
+header p:nth-of-type(1) {
     /* display: inline; */
     font-size: 35px;
     font-family: 'Yellowtail', cursive;
     text-indent: 0px;
 }
 
-header div p:nth-of-type(2) {
+header p:nth-of-type(2) {
     font-family: sans-serif;
     font-size: 8.5px;
     text-indent: 4px;
     padding: 2px 0px 0px 0px;
+}
+
+header img:nth-of-type(1) {
+  float:left;
 }
 
 header ul li img {
@@ -41,6 +45,11 @@ header ul li img {
     float: right;
     /* margin: 2px 2px 2px 2px white; */
     list-style: none;
+}
+
+#social-media {
+  float: right;
+  width: 200px;
 }
 
 /* ------------------------------------------- */
@@ -62,6 +71,8 @@ h2 {
   float: left;  
 }
 
+
+
 body div {
   float: right;
 }
@@ -81,7 +92,7 @@ body div p {
   margin-bottom: 20px;
 }
 
-body p {
+section p {
     text-indent: 50px;
     margin-bottom: 20px;
     font-size: 20.6px;
@@ -106,7 +117,7 @@ ul:nth-of-type(2) li:nth-of-type(2) p, ul:nth-of-type(2) li:nth-of-type(3)  p{
   display: inline;
 }
 
-ul li:nth-of-type(1) {
+section ul li:nth-of-type(1) {
   padding-top: 40px;
 }
 
